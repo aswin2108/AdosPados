@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.user-link{
+    margin-top: 20px;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.site-name{
+    font-family: 'Brawler', serif;
+    font-family: 'Lobster', cursive;
+    color: aqua;
+    margin-left: 10px;
+}
+.logo-link{
+    text-decoration-color: aqua;
+}
+.post-link{
+    text-decoration: none;
+    color: aqua;
+}
+.signout-link{
+    color: aqua;
+    cursor: pointer;
+}
