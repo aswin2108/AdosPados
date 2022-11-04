@@ -15,7 +15,6 @@ const SignIn=()=>{
     }
     const userFormRedirect=useNavigate();
     const {currentUser}=useContext(UserContext);
-    console.log(currentUser);
     return(
         <div className="home-container">
         <div>

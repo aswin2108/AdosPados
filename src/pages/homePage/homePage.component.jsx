@@ -1,6 +1,6 @@
 import React from "react";
 
-import SignIn from "../components/displayHome/displayHome.component";
+import SignIn from "../../components/displayHome/displayHome.component";
 
 const HomePage=()=>{
     return(
