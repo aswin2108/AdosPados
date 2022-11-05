@@ -1,0 +1,98 @@
+.news-card{
+    width: 50%;
+    padding:5px;
+    border: 3px solid rgb(193, 3, 3);
+    background-color: rgba(193, 3, 3,0.6);
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: 25px;
+    color: white;
+}
+.job-card{
+  width: 50%;
+  padding:5px;
+  border: 3px solid rgb(8, 195, 8);
+  background-color: rgba(8, 195, 8,0.6);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-top: 20px;
+  color: white;
+}
+.giving-card{
+  width: 50%;
+  padding:5px;
+  border: 3px solid rgb(168, 3, 168);
+  background-color: rgba(168, 3, 168,0.6);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-top: 20px;
+  color: white;
+}
+.other-card{
+  width: 50%;
+  padding:5px;
+  border: 3px solid rgb(232, 232, 9);
+  background-color: rgba(232, 232, 9, 0.6);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-top: 20px;
+  color: white;
+}
+.post-card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.delete-post-btn {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 10px;
+    margin-top: 15px;
+    /* min-height: 60px; */
+    /* min-width: 0; */
+    outline: none;
+    /* padding: 16px 24px; */
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    /* width: 10%; */
+    height: 35px;
+    will-change: transform;
+  }
+  .d-img{
+    width: 55%;
+  }
+  
+  .delete-post-btn:disabled {
+    pointer-events: none;
+  }
+  
+  .delete-post-btn:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .delete-post-btn:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  @media (max-width:450px){
+    .card-container{
+      width: 94%;
+    }
+  }

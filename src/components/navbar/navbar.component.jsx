@@ -18,6 +18,9 @@ const Header=()=>{
             currentUser?(
                 <div className="user-link">
                 <div>
+                <Link className="shop-link" to="/shop">SHOP</Link>
+                </div>
+                <div>
                 <Link className="post-link" to="/posts">POSTS</Link>
                 </div>
                 <div>

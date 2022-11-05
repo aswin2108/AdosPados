@@ -78,7 +78,11 @@ const PostCreation=()=>{
 
     const handleSubmit=async(event)=>{
         event.preventDefault();
-        uploadImage();
+        imageUpload===null?(
+            addToFirestore('')
+        ):(
+            uploadImage() 
+        )
     };
 
     return(
