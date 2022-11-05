@@ -1,0 +1,35 @@
+.shop-card-container{
+    display:flex;
+    flex-direction: column;
+}
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    /* bottom: 40px;
+    right: 40px; */
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    /* z-index: 100; */
+}
+
+.whatsapp-icon {
+    margin-top: 16px;
+}
+.shopCard{
+    border: solid white;
+    border-radius: 10px;
+    width: 35%;
+    height: 15vh;
+    background-color: rgba(244, 239, 239,0.8);
+    margin: 10px;
+    margin-left: 30%;
+}
+.shopName{
+    font-size: 20px;
+    font-weight: 900;
+}
