@@ -1,7 +1,8 @@
 import {Routes, Route} from 'react-router-dom';
 
 import HomePage from './pages/homePage/homePage.component';
-import UserForm from './pages/userForm/userForm.component';
+import Posts from './pages/postsPage/postPage.component';
+import CreatePost from './pages/createPostPage/createPost.page';
 import './App.css';
 
 import Header from './components/navbar/navbar.component';
@@ -12,7 +13,8 @@ const App=()=> {
     <Header/>
     <Routes>
     <Route index path='/' element={<HomePage /> }/>
-    <Route index path='/userform' element={<UserForm /> }/>
+    <Route index path='/posts' element={<Posts /> }/>
+    <Route index path='/create-post' element={<CreatePost /> }/>
     </Routes>
     </div>
   )

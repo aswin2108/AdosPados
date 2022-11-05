@@ -18,7 +18,7 @@ const Header=()=>{
             currentUser?(
                 <div className="user-link">
                 <div>
-                <Link className="post-link" to="/diary">POSTS</Link>
+                <Link className="post-link" to="/posts">POSTS</Link>
                 </div>
                 <div>
                 <span className="signout-link" onClick={signOutUser}>SIGN OUT</span>

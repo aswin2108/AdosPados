@@ -3,17 +3,14 @@ import {  useContext } from "react";
 import { UserContext } from "../../contexts/user.context";
 
 import { signInWithGooglePopup} from "../../firebase/firebase.utils";
-import { useNavigate } from "react-router-dom";
 
 import './displayHome.styles.css';
 
 
 const SignIn=()=>{
     const signInWithGoogle = async()=>{
-        await signInWithGooglePopup(); 
-        userFormRedirect('/userform');
+        await signInWithGooglePopup();
     }
-    const userFormRedirect=useNavigate();
     const {currentUser}=useContext(UserContext);
     return(
         <div className="home-container">
