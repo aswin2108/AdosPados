@@ -44,12 +44,12 @@ const UserDetails=()=>{
     }
 
     return(
-        <div>
-           <div><h2>Enter your details</h2></div>
+        <div className="userFormContainer">
+           <div className="userFormTitle"><h2>Enter your details</h2></div>
            <div>
-             <form onSubmit={handleSubmit}>
-             <input className="Aid" type="text" required aria-label="associationId" onChange={handleChange} name='associationId' value={associationId} />
-             <input className="Hno" type="text" required aria-label="houseNo" onChange={handleChange} name='houseNo' value={houseNo} />
+             <form className="userForm" onSubmit={handleSubmit}>
+             <input className="Aid" placeholder="Association Number" type="text" required aria-label="associationId" onChange={handleChange} name='associationId' value={associationId} />
+             <input className="Hno" placeholder="House Number" type="text" required aria-label="houseNo" onChange={handleChange} name='houseNo' value={houseNo} />
              <button className="userButton" type="submit">Save</button>
              </form>
            </div>
