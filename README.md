@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+## Inspiration
+The inefficiency of the current method of distribution of news and other information was the inspiration. Currently, the news is distributed through WhatsApp groups where these messages would get lost in other messages like social media posts, memes, etc, most of the time people miss this news which creates other problems.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What it does
+Ados-Pados is a Hindi word for Neighborhood! 
+It gives the opportunity to spread the news in the form of posts, you will be able to post different types of posts, and the color is decided based on that for easiness. Here you can find out what's happening around your neighborhood. You can post and get part-time jobs in your neighborhood. Just think you have something which you don't need but you think could be useful for others, just post it and interested people would approach you. 
+It gives an online platform to the nearby shops where they would provide their WhatsApp number and people could order it through WhatsApp and the goods would be at your doorstep. 
 
-## Available Scripts
+## How we built it
+I built it using :
+* React
+* Firebase
+* Javascript
 
-In the project directory, you can run:
+## Challenges we ran into
+Adding the data with and without images, and different colors for the posts was a challenge.
 
-### `npm start`
+## Accomplishments that we're proud of
+Really proud of pulling this off in this very short time
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## What we learned
+This helped me to get a better understanding of react and firebase.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for Ados-Pados
+Filtering out the posts using dates, self-expiring posts, and placing orders to shops in a better way is in the planning.
