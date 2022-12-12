@@ -24,7 +24,7 @@ const Header=()=>{
                 <Link className="post-link" to="/posts">POSTS</Link>
                 </div>
                 <div>
-                <span className="signout-link" onClick={signOutUser}>SIGN OUT</span>
+                <Link className="signout-link" to='/' onClick={signOutUser}>SIGN OUT</Link>
                 </div>
                 </div>
             ):(<div></div>)
