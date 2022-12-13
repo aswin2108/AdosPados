@@ -10,11 +10,10 @@
     justify-content: space-between;
 }
 .site-name{
-    font-family: 'Brawler', serif;
-    font-family: 'Lobster', cursive;
     color: aqua;
     margin-left: 10px;
     font-size: 40px;
+    font-family: 'Rubik Vinyl', cursive;
 }
 .logo-link{
     text-decoration-color: aqua;
