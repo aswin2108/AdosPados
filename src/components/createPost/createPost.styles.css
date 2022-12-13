@@ -15,6 +15,7 @@
     font-size: medium;
     color: aquamarine;
     margin-bottom: 10px;
+    border: solid wheat 2px;
 }
 .title{
     width: 100%;
@@ -22,12 +23,14 @@
     font-size: medium;
     color: aquamarine;
     margin-bottom: 10px;
+    border: solid wheat 2px;
 }
 .entryField{
     width: 100%;
     color: aquamarine;
     margin-bottom: 10px;
     border-radius: 10px;
+    border: solid wheat 2px;
 }
 ::placeholder{
     color: aquamarine;
