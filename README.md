@@ -19,20 +19,18 @@ I built it using :
 ## Local Setup
 
 Step 1: Clone the forked repo.
+
 Step 2: Run `npm install` to install all the packages.
+
 Step 3: Run `npm start` the app would be running in [http://localhost:3000/](http://localhost:3000/)
 
 ## Challenges we ran into
 
 Adding the data with and without images, and different colors for the posts was a challenge.
 
-## Accomplishments that we're proud of
-
-Really proud of pulling this off in this very short time
-
 ## What we learned
 
-This helped me to get a better understanding of react and firebase.
+This helped me to get a better understanding of react and firebase, also got a better understanding of hooks.
 
 ## What's next for Ados-Pados
 
